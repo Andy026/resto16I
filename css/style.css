@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+}
+
+h2,h4{
+    margin: 20px 0px;
+    font-family: 'Anton', sans-serif;
+}
+
+nav{
+    background-color: rgba(21, 21, 21, 0.8);
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-right: 150px;
+
+}
+    
+
+li{
+    list-style: none;
+    align-items: center;
+}
+
+#logo{
+    width: 150px;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 5px;
+    padding: 10px 10px;
+    align-items: center;
+
+}
+
+a:hover{
+    color: rgb(60, 172, 60);
+}
+
+
+
+
+
+#titulo{
+    position: relative;
+}
+
+#titulo div{
+    position: absolute;
+    color: white;
+    z-index: 2;
+    top: 40%;
+    text-align: center;
+    width: 93%;
+    padding: 0px 50px;
+}
+
+.contenedor{
+    margin: 30px;
+}
+
+.informacion{
+    /* background: rgba(44, 4, 4, 0.322); */
+    text-align: center;
+}
+
+.informacion p{
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+
+.menu{
+      background: rgba(88, 87, 87, 0.15);
+      padding: 40px 25px;
+      display: flex;
+      justify-content: space-around;
+}
+
+td,th{
+    padding: 15px;
+}
+
+tbody>tr:nth-child(odd){
+    background: rgb(29, 27, 27);
+    color: white;
+}
+tr:nth-child(even), th{
+    background: rgba(255, 255, 255, 0.466);
+    color: black;
+}
+
+
+td:nth-child(3){
+    color: rgb(60, 172, 60);
+    font-weight: 600;
+}
+
+
+footer{
+    background:rgba(21, 21, 21, 0.8);
+    color: white;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+footer p{
+    margin-top: 15px;
+    color: rgb(182, 182, 182);
+}
+
+
+.chat{
+    background: rgb(10, 181, 187);
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    border-radius: 50%;
+    padding: 13px;
+    color: white;
+}
+  
+.caja{
+    width: 70px;
+    height: 70px;
+  }
+
+hr{
+      margin: 15px 0px;
+}
+
+.tabla{
+      display: flex;
+      justify-content: center;    
+}
+
+
+
+@media all and (min-width: 768px) and (max-width: 1038px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    h1{
+        font-family: 'Anton', sans-serif;
+        font-size: 70px;
+        text-align: start;
+    }
+    
+    h2,h4{
+        margin: 20px 0px;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    nav{
+        background-color: rgba(21, 21, 21, 0.8);
+        padding: 20px;
+        position: fixed;
+        top: 0px;
+        z-index: 10;
+        width: 100%;
+        display: flex;
+    }
+    
+
+    ul{
+        display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-left: 100px;
+    }
+    
+    li{
+        list-style: none;
+        align-items: flex-start;
+    }
+    
+    #logo{
+        width: 150px;
+    }
+    
+    #fondoTitulo{
+        width: 100%;
+    }
+    
+    a{
+        color: white;
+        text-decoration: none;
+        margin: 0px 5px;
+        padding: 10px 10px;
+        align-items: center;
+    
+    }
+    
+    a:hover{
+        color: rgb(60, 172, 60);
+    }
+    
+    .fotoChef{
+        width: auto;
+    }
+    
+    
+    
+    #titulo{
+        position: relative;
+    }
+    
+    #titulo div{
+        position: absolute;
+        color: white;
+        z-index: 2;
+        top: 40%;
+        text-align: center;
+        width: 93%;
+        padding: 0px 50px;
+    }
+    
+    .contenedor{
+        margin: 30px;
+    }
+    
+    .informacion{
+        /* background: rgba(44, 4, 4, 0.322); */
+        text-align: center;
+    }
+    
+    .informacion p{
+        text-align: justify;
+        margin-bottom: 25px;
+    }
+    
+    
+    .menu{
+          background: rgba(88, 87, 87, 0.15);
+          padding: 40px 25px;
+          display: flex;
+          justify-content: space-around;
+    }
+    
+    td,th{
+        padding: 15px;
+    }
+    
+    tbody>tr:nth-child(odd){
+        background: rgb(29, 27, 27);
+        color: white;
+    }
+    tr:nth-child(even), th{
+        background: rgba(255, 255, 255, 0.466);
+        color: black;
+    }
+    
+    
+    td:nth-child(3){
+        color: rgb(60, 172, 60);
+        font-weight: 600;
+    }
+    
+    
+    footer{
+        background:rgba(21, 21, 21, 0.8);
+        color: white;
+        padding: 50px 0px;
+        text-align: center;
+    }
+    
+    footer p{
+        margin-top: 15px;
+        color: rgb(182, 182, 182);
+    }
+    
+    
+    .chat{
+        background: rgb(10, 181, 187);
+        position: fixed;
+        right: 25px;
+        bottom: 25px;
+        border-radius: 50%;
+        padding: 13px;
+        color: white;
+    }
+      
+    .caja{
+        width: 70px;
+        height: 70px;
+      }
+    
+    hr{
+          margin: 15px 0px;
+    }
+    
+    .tabla{
+          display: flex;
+          justify-content: center;    
+    }
+}
+
+/*@media all and () and (){
+
+}
+
+@media all and () and (){
+
+}
+
+@media all and () and (){
+
+}
+*/
